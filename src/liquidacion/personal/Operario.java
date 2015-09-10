@@ -10,17 +10,17 @@ package liquidacion.personal;
  * @author oscarquinteros
  */
 public class Operario extends Empleado{
-    private String turno;
+    private TURNO turno;
 
     public Operario(Integer dni, String apellido, String nombre, Integer nroLegajo,String turno) {
         super(dni, apellido, nombre, nroLegajo);
-        this.turno=turno;
+        this.turno=TURNO.valueOf(turno);
     }
 
     /**
      * @return the turno
      */
-    public String getTurno() {
+    public TURNO getTurno() {
         return turno;
     }
 
@@ -28,6 +28,6 @@ public class Operario extends Empleado{
      * @param turno the turno to set
      */
     public void setTurno(String turno) {
-        this.turno = turno;
+        this.turno = TURNO.valueOf(turno);
     }
 }
