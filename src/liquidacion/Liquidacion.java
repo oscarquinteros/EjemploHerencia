@@ -16,8 +16,7 @@ import liquidacion.personal.Operario;
 public class Liquidacion {
     /**
      * @param args the command line arguments
-     */
-		
+     */		
     public static void main(String[] args) {
         Liquidador liq=new Liquidador();
         SueldoBasicoOperario sbo = new SueldoBasicoOperario();
