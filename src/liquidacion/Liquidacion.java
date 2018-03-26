@@ -14,7 +14,6 @@ import liquidacion.personal.Operario;
  * @author oscarquinteros
  */
 public class Liquidacion {
-
     /**
      * @param args the command line arguments
      */
@@ -26,8 +25,7 @@ public class Liquidacion {
         op.addHaberes(sbo);
         op.addHaberes(cat);
         liq.agregarEmpleado(op);
-        System.out.println(liq.liquidar()); 
-		              
+        System.out.println(liq.liquidar()); 		              
     }
     
 }
