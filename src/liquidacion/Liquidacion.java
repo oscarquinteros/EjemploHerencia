@@ -21,11 +21,11 @@ public class Liquidacion {
         Liquidador liq=new Liquidador();
         SueldoBasicoOperario sbo = new SueldoBasicoOperario();
         CategoriaOperario cat = new CategoriaOperario();
-        Operario op = new Operario(1,"Juan","Ponce",2,"NOCTURNO");
-        op.addHaberes(sbo);
+        Operario op = new Operario(1,"Juanse","Ponce",2,"NOCTURNO");
+        op.a<addHaberes(sbo);
         op.addHaberes(cat);
         liq.agregarEmpleado(op);
-        //System.out.println(liq.liquidar()); 		              
+        System.out.println(liq.liquidar());
     }
 
 }
